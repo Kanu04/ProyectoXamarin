@@ -35,8 +35,6 @@ namespace HolaMoviles
 			AgregarComando = new Command(async () => await CargarItems());
 
 			InitializeComponent();
-
-			ButtonAgregar.Clicked += ButtonAgregar_Click;
 		}
 
         private void Seleccion()
