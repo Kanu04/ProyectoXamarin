@@ -33,7 +33,6 @@ namespace HolaMoviles
         public MainPage()
 		{
 			AgregarComando = new Command(async () => await CargarItems());
-			AbrirComando = new Command(async() => await Navigation.PushAsync(new TabsPage()));
 
 			InitializeComponent();
 
@@ -42,7 +41,7 @@ namespace HolaMoviles
 
         private void Seleccion()
         {
-            Navigation.PushAsync(new CamaraPage(SelectProducto.Nombre));
+            Navigation.PushAsync(new ProductoInfo(SelectProducto.Nombre));
         }
 
 		protected async override void OnAppearing()

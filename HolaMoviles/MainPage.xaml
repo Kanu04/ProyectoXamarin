@@ -30,10 +30,5 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <Button x:Name="ButtonAgregar" Text="Agregar" Command="{Binding AgregarComando}" />
-        <Button Text="Abrir" Command="{Binding AbrirComando}" 
-                
-                BindingContext="{Binding Source={x:Reference Root} }"
-                />
     </StackLayout>
 </ContentPage>

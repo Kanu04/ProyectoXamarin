@@ -9,9 +9,9 @@ using HolaMoviles.Modelos;
 
 namespace HolaMoviles
 {
-	public partial class CamaraPage : ContentPage
+	public partial class ProductoInfo : ContentPage
 	{
-		public CamaraPage(String Nombre)
+		public ProductoInfo(String Nombre)
         {
             InitializeComponent();
 
@@ -48,27 +48,27 @@ namespace HolaMoviles
 
             if (Texto.Text == "bed")
             {
-                Precio.Text = "Precio: $225";
+                PrecioT.Text = "Precio: $225";
                 CantidadT.Text = "Cantidad: 1";
             }
             if (Texto.Text == "bench")
             {
-                Precio.Text = "Precio: $29.99";
+                PrecioT.Text = "Precio: $29.99";
                 CantidadT.Text = "Cantidad: 3";
             }
             if (Texto.Text == "chair")
             {
-                Precio.Text = "Precio: $9.99";
+                PrecioT.Text = "Precio: $9.99";
                 CantidadT.Text = "Cantidad: 7";
             }
             if (Texto.Text == "couch")
             {
-                Precio.Text = "Precio: $50";
+                PrecioT.Text = "Precio: $50";
                 CantidadT.Text = "Cantidad: 2";
             }
             if (Texto.Text == "pillow")
             {
-                Precio.Text = "Precio: $5";
+                PrecioT.Text = "Precio: $5";
                 CantidadT.Text = "Cantidad: 1";
             }
         }

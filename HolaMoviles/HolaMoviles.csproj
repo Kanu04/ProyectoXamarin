@@ -11,4 +11,10 @@
     <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
     <PackageReference Include="Xamarin.Forms.Maps" Version="3.0.0.446417" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ProductoInfo.xaml.cs">
+      <DependentUpon>ProductoInfo.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
