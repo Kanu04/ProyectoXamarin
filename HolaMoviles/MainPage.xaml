@@ -13,7 +13,7 @@
             </StackLayout.Margin>
             
         </StackLayout>
-        <Label x:Name="Select" Text="Seleccione un Producto." HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+        <Label x:Name="Select" Text="Seleccione un Producto" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
         <ListView HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                   BindingContext="{Binding Source={x:Reference Root} }"
                   ItemsSource="{Binding Path=Items}"
