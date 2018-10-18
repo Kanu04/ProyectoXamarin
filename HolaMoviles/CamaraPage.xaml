@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:HolaMoviles"
+             x:Class="HolaMoviles.CamaraPage">
+    <ContentPage.Content>
+
+        <StackLayout Orientation="Vertical">
+
+            <local:ControlContenido />
+            <Label x:Name="Texto" />
+            <Image x:Name="Imagen" Source="camara.png" VerticalOptions="FillAndExpand" Aspect="AspectFit" />
+            <Button x:Name="BotonCamara" Text="Detalle" />
+            <Label x:Name="DetalleT" HorizontalOptions="Center"/>
+            <Label x:Name="PrecioT" HorizontalOptions="Start"/>
+            <Label x:Name="CantidadT" HorizontalOptions="Start"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
