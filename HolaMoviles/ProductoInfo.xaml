@@ -4,17 +4,19 @@
              xmlns:local="clr-namespace:HolaMoviles"
              x:Class="HolaMoviles.ProductoInfo">
     <ContentPage.Content>
-
+        <ScrollView>
         <StackLayout Orientation="Vertical">
 
             <local:ControlContenido />
             <Label x:Name="Texto" />
-            <Image x:Name="Imagen" Source="camara.png" VerticalOptions="FillAndExpand" Aspect="AspectFit" />
+            <Image x:Name="Imagen" Source="camara.png" VerticalOptions="FillAndExpand" Aspect="AspectFit"
+                   WidthRequest="200" HeightRequest="200"/>
             <Button x:Name="BotonCamara" Text="Detalle" />
             <Label x:Name="DetalleT" HorizontalOptions="Center"/>
             <Label x:Name="PrecioT" HorizontalOptions="Start"/>
             <Label x:Name="CantidadT" HorizontalOptions="Start"/>
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

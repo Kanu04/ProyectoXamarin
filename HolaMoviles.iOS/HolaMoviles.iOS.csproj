@@ -161,10 +161,20 @@
       <Name>HolaMoviles</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Servicios\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BundleResource Include="Resources\camara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Couch.png" />
   </ItemGroup>
 </Project>
